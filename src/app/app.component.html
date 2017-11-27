@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+<div [style.background]="wardsColor">
+  Hello {{name}} 
+</div>
+
+<input type="text" [value]="name" (keyup)="name = $event.target.value">
+<!--<input type="text" [value]="name" (keyup.enter)="name = $event.target.value">
+<input type="text" [value]="name" (blur)="name = $event.target.value">
+
+Deu erro
+
+-->
+<input type="text" [(ngModel)]="name">
+
+
+<button (click)="changeSuitColor()">Change Suit Color </button>
+
+<ul>
+  <li ngFor="let customer of customers" >{{customer.name}}</li> 
+</ul>

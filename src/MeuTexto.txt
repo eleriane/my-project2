@@ -1,0 +1,39 @@
+http://yeoman.io/learning/
+
+npm install -g yo
+
+npm install -g generator-aspnet
+
+----------------------------------
+GIT DICAS
+
+git remote show origin
+----------------------------------
+
+
+
+----------------------------------
+
+
+https://docs.microsoft.com/en-us/ef/core/
+
+
+
+
+dotnet restore
+
+
+
+https://docs.microsoft.com/pt-br/aspnet/core/tutorials/web-api-vsc
+
+
+    DICAS VISUAL CODE
+-----------------------------------------------
+Beautify code
+
+    On Windows=> Shift + Alt + F
+    On Mac=> Shift + Option + F
+    On Ubuntu=> Ctrl + Shift + I
+
+Repetir texto
+    ul>li*3
